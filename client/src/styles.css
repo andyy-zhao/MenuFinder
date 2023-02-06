@@ -83,3 +83,49 @@
 .card-nav {
     color: black !important;
 }
+
+/* SEARCH MODAL */
+.search-header{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.search-title {
+    align-items: center;
+    text-align: center !important;
+    font-weight: bolder;
+    font-size: larger;
+    color: #36392D;
+}
+
+.search-subtitle {
+    text-align: center !important;
+    font-size: large;
+    font-weight: 300;
+    color: #36392D;
+}
+
+/* Styles for wrapping the search box */
+.main {
+    width: 100%;
+    margin: 0px auto
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
