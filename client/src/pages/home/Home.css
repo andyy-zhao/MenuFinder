@@ -1,0 +1,43 @@
+.menu-title {
+    color: 	#36392D;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center; 
+    padding-top: 20px;
+    font-family: ClashDisplay;
+    position: relative;
+}
+.menu-title-1 {
+    color: 	#36392D;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center; 
+    padding-top: 70px;
+    font-family: ClashDisplay;
+    position: relative;
+}
+
+.r-descr {
+    color: #36392D;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.category-bars {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.category-btn {
+    background-color: transparent !important;
+    border-radius: 12px;
+    border-color: #9FA68C;
+    margin-right: 20px;
+    height: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.single-line-btn {
+    display: inline-block;
+}

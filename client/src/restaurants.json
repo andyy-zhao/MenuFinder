@@ -1,0 +1,1134 @@
+[
+    {
+        "restaurants": [
+            {
+                "name": "Yunshang",
+                "location": "170 University Ave W #35, Waterloo, ON N2L 3E9",
+                "openHour": "11:00AM",
+                "closeHour": "10:00PM",
+                "rating": "4.3",
+                "category": "Noodles",
+                "image": "https://yunshang.ca/img/ys-logo-white.png",
+                "menu": [
+                    {
+                        "Appetizers": [
+                            {   "id": "1",
+                                "name": "Salty Popcorn Chicken",
+                                "price": "$9.99",
+                                "category": "Appetizers",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/7.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "2",
+                                "name": "新奥尔良炸鸡翅 New Orleans Fried Chicken Wings",
+                                "price": "$8.99",
+                                "category": "Appetizers",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/9.jpg",
+                                "pcs": "8个 8pcs"
+                            },
+                            {
+                                "id": "3",
+                                "name": "Crispy Chicken Gristle With Garlic",
+                                "price": "$11.99",
+                                "category": "Appetizers",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/205.jpg",
+                                "pcs": "8个 8pcs"
+                            },
+                            {
+                                "id": "4",
+                                "name": "香炸鱿鱼须 Deep Fried Squid Tentacle",
+                                "price": "$11.99",
+                                "category": "Appetizers",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/13.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "5",
+                                "name": "蒜泥炸豆腐 Deep Fried Tofu with Garlic Sauce",
+                                "price": "$6.99",
+                                "category": "Appetizers",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/46.jpg",
+                                "pcs": "9片 9pcs"
+                            },
+                            {
+                                "id": "6",
+                                "name": "红豆沙南瓜饼 Deep Fried Pumpkin Pancake With Red Bean Paste",
+                                "price": "$4.99",
+                                "category": "Appetizers",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/206.jpg",
+                                "pcs": "5个 5pcs"
+                            },
+                            {
+                                "id": "7",
+                                "name": "果木熏猪蹄 Smoked Pork Feet",
+                                "price": "$8.99",
+                                "category": "Appetizers",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/233.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "8",
+                                "name": "果木熏猪大肠 Smoked Pork Intestine",
+                                "price": "$10.99",
+                                "category": "Appetizers",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/234.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "9",
+                                "name": "红糖糍粑 Fried Brown Sugar Glutinous Rice Cake",
+                                "price": "$4.99",
+                                "category": "Appetizers",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/2422.jpg",
+                                "pcs": "5条 5 pcs"
+                            },
+                            {
+                                "id": "10",
+                                "name": "椰汁流心球 Coconut Lava Ball",
+                                "price": "$4.99",
+                                "category": "Appetizers",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/2427.jpg",
+                                "pcs": "5个 5 pcs"
+                            }
+                        ]
+                    },
+                    {
+                        "Cold_Dishes": [
+                            {
+                                "id": "11",
+                                "name": "夫妻肺片 Slice Beef & Ox Tongue in Chili Sauce",
+                                "price": "$10.99",
+                                "category": "Cold Dishes",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/10.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "12",
+                                "name": "盐边牛肉 Beef with Chili Sauce and Chinese Parsley",
+                                "price": "$10.99",
+                                "category": "Cold Dishes",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/16.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "13",
+                                "name": "麻辣肚丝 Shredded Tripe in Chili Sauce",
+                                "price": "$9.99",
+                                "category": "Cold Dishes",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/112.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "14",
+                                "name": "西芹猪耳 Celery & Pig's Ear in Garlic Sauce",
+                                "price": "$8.99",
+                                "category": "Cold Dishes",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/42.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "15",
+                                "name": "炝拌土豆丝 Potato Slice w/ Chili & Garlic Sauce",
+                                "price": "$6.99",
+                                "category": "Cold Dishes",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/56.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "16",
+                                "name": "凉拌海带丝 Seaweed w/ Soy Sauce",
+                                "price": "$6.99",
+                                "category": "Cold Dishes",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/104.jpg",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Mains": [
+                            {
+                                "id": "17",
+                                "name": "原味骨汤米线 Original Rice Noodle Pork Soup",
+                                "price": "$11.99",
+                                "category": "Mains",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/1.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "18",
+                                "name": "鲜香番茄米线 Tomato Rice Noodle Pork Soup",
+                                "price": "$13.49",
+                                "category": "Mains",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/2.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "19",
+                                "name": "川味香辣米线 Spicy Rice Noodle Pork Soup",
+                                "price": "$13.49",
+                                "category": "Mains",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/2.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "20",
+                                "name": "椰香咖喱米线 Coconut Curry Rice Noodle Pork Soup",
+                                "price": "$13.49",
+                                "category": "Mains",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/4.jpg",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Drinks": [
+                            {
+                                "id": "21",
+                                "name": "Coke",
+                                "price": "$2.00",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/72.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "22",
+                                "name": "Diet Coke",
+                                "price": "$2.00",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/73.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "23",
+                                "name": "Sprite",
+                                "price": "$2.00",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/74.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "24",
+                                "name": "Orange Soda",
+                                "price": "$2.00",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/75.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "25",
+                                "name": "Ginger Ale",
+                                "price": "$2.00",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/76.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "26",
+                                "name": "Bottled Water",
+                                "price": "$2.00",
+                                "category": "Drinks",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/35.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "27",
+                                "name": "Nestea",
+                                "price": "$2.25",
+                                "category": "Drinks",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/54.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "28",
+                                "name": "Herbal tea",
+                                "price": "$2.75",
+                                "category": "Drinks",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/23.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "id": "29",
+                                "name": "Coconut Milk",
+                                "price": "$2.75",
+                                "category": "Drinks",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/2349.jpg",
+                                "pcs": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Seoul Soul",
+                "location": "170 University Avenue West, Waterloo, ON N2L",
+                "openHour": "11:30AM",
+                "closeHour": "10:00PM",
+                "rating": "3.7",
+                "category": "Chicken",
+                "image": "https://images.thestar.com/_rfOS69g6nQhVjgraOPpO9Wnn2s=/767x508/smart/http://media.zuza.com/0/8/087b946f-0b78-4dc4-b0ca-cb6d64003df0/Seoul_Soul_shop_front___Super_Portrait.jpg",
+                "menu": [
+                    {
+                        "Appetizers": [
+                            { 
+                                "name": "Mandu",
+                                "price": "$10.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/66a3a68d-0ca1-4e5d-8438-e19d808f94b0.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Age Dash Tofu",
+                                "price": "$10.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/c4826385-0a84-497a-b8e0-23bb5d5cdd09.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "JapChae",
+                                "price": "$17.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/f6318eda-bbac-4e3a-bf00-068caca33e2a.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Labokki",
+                                "price": "$13.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/15bd765c-ff9d-49f8-99b9-9a1b64aee60e.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Haemul Pajeon",
+                                "price": "$17.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/9e4dd9d1-55b1-4bcc-8986-5168ca07b30f.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Kimchi Jeon",
+                                "price": "$17.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/a51a3092-8222-4329-bdd6-fd8aafb9ea1d.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Gganpungi",
+                                "price": "$19.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/313042d0-7f70-4950-9cc1-6afe5b9a92dd.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Tangsuyuk",
+                                "price": "$25.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/e191a02d-fc7c-4803-a86c-ac1cab29080b.jpeg",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Lunch_Special": [
+                            {
+                                "name": "Bulgogi",
+                                "price": "$13.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/e2c43e46-ce67-4b7d-bd8b-21ac2b06321d.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Jaeyuk Bokkeum",
+                                "price": "$12.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/f08cc188-f3e7-4502-8eba-c24a748f7516.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Ojinguh Bokkeum",
+                                "price": "$15.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/b93968f6-9cac-4383-b5a7-628e898be2a9.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "JapChae",
+                                "price": "$17.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/f6318eda-bbac-4e3a-bf00-068caca33e2a.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Galbi",
+                                "price": "$15.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/7b0d10d9-ec82-4efe-87e1-b9f1b33de6c1.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Fire Chicken",
+                                "price": "$13.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/dea67cef-ece0-4d76-b94a-6667323a3071.jpeg",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Soups,_Stews_&_Hot_Pots": [
+                            {
+                                "name": "Kamja Tang",
+                                "price": "$12.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/a9f8cd44-a6f3-41f0-8460-95f97b92ee96.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Soondubu Jiggae",
+                                "price": "$14.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/b96ec89e-0734-4cb5-86d4-33b6ebe76dce.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Ddukbaegi Bulgogi",
+                                "price": "$14.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/84903f49-f88b-41f5-bd86-b31467e98f76.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "GalBiTang",
+                                "price": "$15.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/525a89e7-2514-401b-b5e5-defa0b8efb7b.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Kamja Tang Jeongol",
+                                "price": "$29.95 (for two)",
+                                "image": "https://d1ralsognjng37.cloudfront.net/ae648347-4793-4db0-a4b1-77e30bc9ccf0.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Dwenjang Jjigae",
+                                "price": "$13.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/0fa37980-63ac-4335-9d69-706830f4b899.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Kimchi Jjigae",
+                                "price": "$14.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/f208f0a1-f0cc-4a88-b92d-0a26a6a128f9.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Yukgaejang",
+                                "price": "$14.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/305dad4f-6790-4dfc-8785-7c7421103ed1.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Odeng Jeongol",
+                                "price": "$17.95 (for two)",
+                                "image": "https://d1ralsognjng37.cloudfront.net/7724bb0b-001c-4aca-810f-809238a527db.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Someori Gukbap",
+                                "price": "$10.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/135ec373-d82e-4c1d-acb8-a10a948894e6.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Ddeok Mandu Guk",
+                                "price": "$10.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/e01faa9a-f9cd-4916-845b-00621dbf2878.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Odeng Tang",
+                                "price": "$11.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/78118b5d-4b6c-4f5b-be35-d9de3839c6d7.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Soondae Guk",
+                                "price": "$12.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/3d683fd9-c214-45c9-b333-e10aa3d1a52d.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Jjambbong",
+                                "price": "$14.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/3e5f2caa-bb35-4010-be57-c0b0cfb84f1c.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Mul Naengmyum",
+                                "price": "$12.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/bbabbdae-b4b9-4d16-a2f5-162634862a08.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Bibim Naengmyun",
+                                "price": "$13.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/1e2f43e5-20e2-464d-8087-8ed491ec7fa1.jpeg",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Fried_Chicken": [
+                            {
+                                "name": "Original Seoul",
+                                "price": "SMALL $13.95 / MEDIUM $19.95 / LARGE $34.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/5c17fc83-68c3-4623-ac60-0b6e3e356e05.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Honey Barbecue",
+                                "price": "SMALL $13.95 / MEDIUM $19.95 / LARGE $34.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/5c17fc83-68c3-4623-ac60-0b6e3e356e05.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Spicy + Sweet House",
+                                "price": "SMALL $13.95 / MEDIUM $19.95 / LARGE $34.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/5c17fc83-68c3-4623-ac60-0b6e3e356e05.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Sweet & Sour Mustard + Fresh Green Onions",
+                                "price": "SMALL $13.95 / MEDIUM $19.95 / LARGE $34.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/5c17fc83-68c3-4623-ac60-0b6e3e356e05.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Honey Garlic",
+                                "price": "SMALL $13.95 / MEDIUM $19.95 / LARGE $34.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/5c17fc83-68c3-4623-ac60-0b6e3e356e05.jpeg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Soy Garlic",
+                                "price": "SMALL $13.95 / MEDIUM $19.95 / LARGE $34.95",
+                                "image": "https://d1ralsognjng37.cloudfront.net/5c17fc83-68c3-4623-ac60-0b6e3e356e05.jpeg",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Beverages/Drinks": [
+                            {
+                                "name": "Canned Soft Drinks",
+                                "price": "$2.50",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/72.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Fanta (Orange) 473mL",
+                                "price": "$3.00",
+                                "image": "https://www.citypng.com/public/uploads/preview/hd-fanta-orange-soda-can-png-31625592657gc2rwjgkay.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Morning Rice 500mL",
+                                "price": "$3.50",
+                                "image": "https://s.cornershopapp.com/product-images/2904988.jpg?versionId=pwZCzp79iPGRvq3Oa25jc5RjYi7viirS",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Bottled Water",
+                                "price": "$2.50",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/35.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Nestea",
+                                "price": "$3.00",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/54.jpg",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Milk Tea",
+                                "price": "$5.00",
+                                "image": "https://www.marcheliantai.ca/image/cache/catalog/products/snack1/marche-shengtai-grocery-store-grocery-snack-87-800x800.jpg",
+                                "pcs": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Chung Chun Rice Dog",
+                "location": "160 University Ave W Unit 1, Waterloo, ON N2L 3E9",
+                "openHour": "11:00AM",
+                "closeHour": "12:00AM",
+                "rating": "4.3",
+                "category": "On The Go",
+                "image": "https://hillcrestmall.ca/wp-content/uploads/2022/02/25073304_693378870832829_3155767011245569844_o.jpg",
+                "menu": [
+                    {
+                        "Meat_Lovers": [
+                            { 
+                                "name": "Chungchun Original",
+                                "price": "$4.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/original-poyiv1y5j800avon87kp167tiqyz6vlkcs8iv4zg3o.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Chicken Nugget Hotdog",
+                                "price": "$7.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/chicken-nugget-poyipiodacdss2ddpmqn0sx2mg4noboifo7022vj2c.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Chicken Hotdog",
+                                "price": "$6.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/original-poyiv1y5j7yl5ebxe0vjpemsk4uh05nlv2hxsqo2f8.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Gamsung Potato",
+                                "price": "$5.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/gamsung-poyirw7ok9mw4kx4u5potpc0oif24s433fk6q9cpc4.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Half Mozzarella Hotdog",
+                                "price": "$5.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/half-mozarella-poyismj5vmmx5nuwkh38rioxbatc4b0kj1ts609ohw.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Cheddar Cheese",
+                                "price": "$5.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/cheddar-cheese-poyiodbgxmt6l81gf4v1z3cshhsi9n4blzhmxwkuo4.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Sausage & Rice Cake",
+                                "price": "$5.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/sausage-rice-cake-poyix0g1rsn3c5hiydckeeud41701gfh4rfcshrjgk.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Ramen Chip",
+                                "price": "$5.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/Ramen-poyivrbsnqxbuvb29tuh2q88ljddrzgcyk41r7mfr8.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Jumbo",
+                                "price": "$6.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/jumbo-poyithju55tdsslujchxjsv4x0kg6bfpnbct04zosk.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Double Cheese Hotdog",
+                                "price": "$6.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/double-cheese-poyir24uhkhpt24tpspmlwx9o6jbagsobaondelav8.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Squid Ink Cheese",
+                                "price": "$6.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/squid-ink-poyiyg567olv2pefkhp1pjsps846st4pnvb26pmvyc.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Volcano",
+                                "price": "$7.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/Volcano-poyj24oezbnajq1x2kzfz4cpjjyxy4qv63aiuq6dl0.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Sweet Potato",
+                                "price": "$6.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/Sweet-Potato-poyizp9fbqbmjzkw917518euapxt2a3tu2md7zrzno.png",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Vegetarians": [
+                            {
+                                "name": "Chocolate",
+                                "price": "$7.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/chocolate-poyiq9xosjf44r9sagitj41fumeavjoq7f42z3r41w.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Marble Cheese",
+                                "price": "$6.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/marble-cheese-poyiu9qzu6vzh3gvyooqmlqyqkpgl8jnr6xdeftvlw.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Whole Mozzarella",
+                                "price": "$5.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/whole-mozarella-poyj502nv3ku0tvqatoele9evxtbgu5c8b1xn5x2kk.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Veggie",
+                                "price": "$6.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/Veggie-poyj15wdygbom5gfpny8wv4nkaqd1bwspb5k3hlxz8.png",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Combo_Menu": [
+                            {
+                                "name": "Chungchun Combo",
+                                "price": "$28.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/cheese-bomb-2-po9ypida0h3nuxxfly4s2ytkb7hx7s6w0lw9lsmk52.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Cheese Bomb Combo",
+                                "price": "28.99",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/cheese-bomb-po9xy2gwhljawrseul3vse43z8r5hw8zws8y7zbbsm.png",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Beverages": [
+                            {
+                                "name": "House Coffee",
+                                "price": "$2.49",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/house-coffee-pkpkrzmcmz05vokyi8r2ksowxjdw5opixsfdbe1utg.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Pineapple Ade",
+                                "price": "$3.49",
+                                "image": "https://chungchunricedog.ca/wp-content/uploads/elementor/thumbs/pineapple-ade-pkpks2fv7h40uigv1ryya9zapozzss0py6dtr7xoas.png",
+                                "pcs": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Slap Burgers",
+                "location": "170 University Ave W Unit 32, Waterloo, ON N2L 3E9",
+                "openHour": "11:00AM",
+                "closeHour": "9:00PM",
+                "rating": "4.9",
+                "category": "Burgers",
+                "image": "https://lh3.googleusercontent.com/p/AF1QipM3bAvvgCgphwV0y570wYEn_u3uOifE08Qa7_2G=s1360-w1360-h1020",
+                "menu": [
+                    {
+                        "Burgers": [
+                            { 
+                                "name": "Single",
+                                "price": "$8.50",
+                                "image": "https://www.slapburgers.ca/uploads/1/4/3/1/143114889/s814269159784717690_p1_i1_w5184.jpeg?width=1280&dpr=1",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Double",
+                                "price": "$11.00",
+                                "image": "https://www.slapburgers.ca/uploads/1/4/3/1/143114889/s814269159784717690_p3_i1_w2178.jpeg?width=1280&dpr=1",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Triple",
+                                "price": "$13.50",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Impossible Burger",
+                                "price": "$11.00",
+                                "image": "https://www.slapburgers.ca/uploads/1/4/3/1/143114889/s814269159784717690_p14_i1_w5184.jpeg?width=1280&dpr=1",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Combos": [
+                            {
+                                "name": "Single COMBO",
+                                "price": "$13.50",
+                                "image": "https://www.slapburgers.ca/uploads/1/4/3/1/143114889/s814269159784717690_p6_i1_w5184.jpeg?width=1280&dpr=1",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Double COMBO",
+                                "price": "16.00",
+                                "image": "https://www.slapburgers.ca/uploads/1/4/3/1/143114889/s814269159784717690_p7_i1_w2048.jpeg?width=1280&dpr=1",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Triple COMBO",
+                                "price": "18.50",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Impossible COMBO",
+                                "price": "16.00",
+                                "image": "https://www.slapburgers.ca/uploads/1/4/3/1/143114889/s814269159784717690_p15_i1_w5184.jpeg?width=1280&dpr=1",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Sides": [
+                            {
+                                "name": "French Fries",
+                                "price": "$3.99",
+                                "image": "https://www.slapburgers.ca/uploads/1/4/3/1/143114889/s814269159784717690_p4_i1_w5184.jpeg?width=1280&dpr=1",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Seasoned Fries",
+                                "price": "$4.99",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Cheese Fries",
+                                "price": "$5.99",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Slap Sauce",
+                                "price": "$1.00",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "House Pickles",
+                                "price": "$2.50",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Drinks": [
+                            {
+                                "name": "Coke Can",
+                                "price": "$1.50",
+                                "image": "https://www.slapburgers.ca/uploads/1/4/3/1/143114889/s814269159784717690_p9_i1_w2000.png?width=1280&dpr=1",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Diet Coke Can",
+                                "price": "$1.50",
+                                "image": "https://www.slapburgers.ca/uploads/1/4/3/1/143114889/s814269159784717690_p11_i1_w2000.png?width=1280&dpr=1",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Sprite Can",
+                                "price": "$1.50",
+                                "image": "https://www.slapburgers.ca/uploads/1/4/3/1/143114889/s814269159784717690_p10_i1_w1012.png?dpr=1",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Canada Dry Can",
+                                "price": "$1.50",
+                                "image": "https://www.slapburgers.ca/uploads/1/4/3/1/143114889/s814269159784717690_p12_i1_w952.png?dpr=1",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Nestea Can",
+                                "price": "$1.50",
+                                "image": "https://www.slapburgers.ca/uploads/1/4/3/1/143114889/s814269159784717690_p13_i1_w1272.png?dpr=1",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Items": [
+                            {
+                                "name": "Cheese Sauce",
+                                "price": "$2.50",
+                                "image": "https://www.slapburgers.ca/uploads/1/4/3/1/143114889/s814269159784717690_p19_i1_w2000.png?width=1280&dpr=1",
+                                "pcs": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Campus Pizza",
+                "location": "160 University Ave W #2, Waterloo, ON N2L 3E9",
+                "openHour": "11:00AM",
+                "closeHour": "4:00AM",
+                "rating": "3.6",
+                "category": "Pizza",
+                "image": "https://lh3.googleusercontent.com/gps/AMWPj2jHkv1CgQC3QYnsOjLuDsCpSAUOmSQJWjv-GMgAnhKrDpGvuzO2Miig8DUbq2SYYgEmYXlMFI2BUizAS2yoptBVrg=s400-w400-h400-e1-k-p",
+                "menu": [
+                    {
+                        "Pizza": [
+                            { 
+                                "name": "Small Sauce And Cheese Pizza",
+                                "price": "$6.99",
+                                "image": "https://lh3.googleusercontent.com/_RNVsVYK-BxBPJkA15fi4bcZ8H32xXyGp1rhb4sqrBTzH8aC97EsR6aqd_hPjfm0uCH5z0VsL2VfKQyr8AbG7_MHgssMqGcyeP8HC9n6=s100-w100-h100-n-e1-rw-k",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Medium Sauce And Cheese Pizza",
+                                "price": "$8.99",
+                                "image": "https://lh3.googleusercontent.com/_RNVsVYK-BxBPJkA15fi4bcZ8H32xXyGp1rhb4sqrBTzH8aC97EsR6aqd_hPjfm0uCH5z0VsL2VfKQyr8AbG7_MHgssMqGcyeP8HC9n6=s100-w100-h100-n-e1-rw-k",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Large Sauce And Cheese Pizza",
+                                "price": "$10.99",
+                                "image": "https://lh3.googleusercontent.com/_RNVsVYK-BxBPJkA15fi4bcZ8H32xXyGp1rhb4sqrBTzH8aC97EsR6aqd_hPjfm0uCH5z0VsL2VfKQyr8AbG7_MHgssMqGcyeP8HC9n6=s100-w100-h100-n-e1-rw-k",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Extra Large Sauce And Cheese Pizza",
+                                "price": "$12.99",
+                                "image": "https://lh3.googleusercontent.com/_RNVsVYK-BxBPJkA15fi4bcZ8H32xXyGp1rhb4sqrBTzH8aC97EsR6aqd_hPjfm0uCH5z0VsL2VfKQyr8AbG7_MHgssMqGcyeP8HC9n6=s100-w100-h100-n-e1-rw-k",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Side Orders": [
+                            {
+                                "name": "Chicken Wings (10 Packs)",
+                                "price": "8.49",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Panzerotti (Sauce and Cheese)",
+                                "price": "5.99",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Pizza Sub",
+                                "price": "4.99",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Garlic Bread",
+                                "price": "3.53",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Garlic Bread With Cheese",
+                                "price": "4.43",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Fries (Family Pack)",
+                                "price": "5.25",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Pizza Dipping Sauces",
+                                "price": "0.71",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Drinks": [
+                            {
+                                "name": "Pop",
+                                "price": "1.55",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Water",
+                                "price": "1.55",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Juice",
+                                "price": "2.65",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Large Milk",
+                                "price": "2.65",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            {
+                                "name": "Brio",
+                                "price": "1.55",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Izna Poke Plus",
+                "location": "170 University Ave W Unit #7-8, Waterloo, ON N2L 3E9",
+                "openHour": "11:00AM",
+                "closeHour": "9:00PM",
+                "rating": "4.4",
+                "category": "Sushi",
+                "image": "https://lh3.googleusercontent.com/p/AF1QipMiMCXoDSJCH49r1LtXfj12gPeXTtBSKwm3m-YZ=s680-w680-h510",
+                "menu": [
+                    {
+                        "Izna Signatures Poke": [
+                            { 
+                                "name": "Salmon Bowl",
+                                "price": "$14.99",
+                                "image": "https://lh3.googleusercontent.com/bvB1n7bWMMYtKRLmKPRZSg6pfL_rAQIMNTH-d4jqXvGgesm5H7QJtAY7MqL2AlszCuVBSN7hKW_gRUF0f2BLse97DmWd4ucLLY7ltTM=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Seafood Trio",
+                                "price": "$16.99",
+                                "image": "https://lh3.googleusercontent.com/BfJ6lAuae1ub4dpmBqLIxX5ww-Llme9x6BFSF3AsA72B7en5ZrdvDig5ctR3KGSe3Ha0mP4mK7rSXIVDl074A4p--rtNMG_6Ct0avbf9=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Salmon and Tuna Bowl",
+                                "price": "$15.99",
+                                "image": "https://lh3.googleusercontent.com/Hx6Yt74zYci9dlfJAdL5C2auNBdMHklRaFtXnkMGoJseibveaRMM9efRL7ZQA39Cqf1dSkPjvnBIjl15t3MlxgS-7URx1clNHpV6dHOw=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Happy Shrimp Bowl",
+                                "price": "$16.99",
+                                "image": "https://lh3.googleusercontent.com/oYAopfN-3bjboFE7xua7fLbm9cFgYvP4vW75_CWU2Vb5gL95BaP25evv7T_GoInPZ6X8ApkTx0g5h1gkiU9doDkXpG7FQD1oS864vv8G=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Unagi Bowl",
+                                "price": "$16.99",
+                                "image": "https://lh3.googleusercontent.com/9E0jt9HIyctSTFh6c-mEf6FmjfGOLgG7s9Kc2WuXAN6ondgAr0ccAgUV7N3q69y9MntiyivUmf5ZZS93OJVVjAVrtGaUEbjw15y4BYOIaA=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Tofu Bowl (Vegetarian Option)",
+                                "price": "$13.99",
+                                "image": "https://lh3.googleusercontent.com/dZg5rV2X6nTdhTPg-n0pHg6po5yIq2ziIzXjMs1IjHzR3hw9dJUyL2bTpGJ_KLA0wyEBqd7qy9gqZqAUW1pnjidACflDru_Jh2OnU37xQQ=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Korean Beef Bulgogi Bowl",
+                                "price": "$15.99",
+                                "image": "https://lh3.googleusercontent.com/EqWZDgmiYeA96Y0q6jKzVXqLAOiJYDmv5uDaKECFkBEHgLy6FK2rmrwoGO3QEbYGUmGQ-4d77hV2i-4iEW_pVK5njcNrxlcP7_3y_5GA=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Korean Spicy Pork Bowl",
+                                "price": "$14.99",
+                                "image": "https://lh3.googleusercontent.com/fFq_IMwkM_5_aAked9Gp8edAHZJkvdj52nwT-pqET8OGC4G0IBRm3dlR-c8jHLj9NiHEBkN5WZMoa2ZsUcWopEnFVcLpzlBOX6p-jBhH=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Grilled Chicken Bowl",
+                                "price": "$14.99",
+                                "image": "https://lh3.googleusercontent.com/HFH2R37Tmsv8tE5t1_BLDCp5_D5kx30DRViXpzoeeDOKiBLj2Dou1NU5n4uNmJi3VoWtkYSabM86ehly33eg-1zsD0D7Woj7fqweDe8g=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "BTS (BBQ'd Teriyaki Seared) Salmon Bowl",
+                                "price": "$15.99",
+                                "image": "https://lh3.googleusercontent.com/XR80sscSpFYMtbBfhgXM5-qGT9qNkDld8lrpalabYhMYAkmqrDOM0QemMEDfD2aEjw-ooGwWHg3ADlyrM5-_NTRrYIlv7xIJCeREV4PrmQ=c-w256",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Izna Korean Style Special Poke": [
+                            { 
+                                "name": "Bibimbap",
+                                "price": "$16.99",
+                                "image": "https://lh3.googleusercontent.com/iNDnE2EmWbslSW1eIFaEZxkhh7tCI7Ppb3b75TGSQzElif9IFNq4ImkmTWGgs6B0xdDvPFs4Cjtw58aejJKL3b_FKS-ZlNK-BC5CMSvmkA=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Hoedeopbap",
+                                "price": "$17.99",
+                                "image": "https://lh3.googleusercontent.com/zxDIW9nC9QaMkLTMWfeXLlQryVuTyBdhfXckhPa20JW0YXSUX8HOjXac_A64cVVygl_xZdiQl7Cuay9Fmo_gPUJUqQhQBZeX46WoTtHS=c-w256",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Udon": [
+                            { 
+                                "name": "Fried Tofu Udon",
+                                "price": "$12.99",
+                                "image": "https://lh3.googleusercontent.com/Yjq5MaNXPwE6TO1OlhJrCGVxyKdynK5ktsBJHeSQssem511y7fijoOOmSQcD-LFcbx1OehndgcH0bO8g5omCWXiGj2LqlRKD7q8pZSyXjg=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Oden (Fish Cake) Udon",
+                                "price": "$13.99",
+                                "image": "https://lh3.googleusercontent.com/3Jr08LrcYK2pPJYMHbpP7bDB1ZcffWcfTHt0-bxSjt_nqCeBDD0nPwMio7GSyPjauhi1CC1pBgfdL8MFAvHjB2saDp-1XslNSOxfRJwFrg=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Grilled Chicken Udon",
+                                "price": "$13.99",
+                                "image": "https://lh3.googleusercontent.com/zKJ60Rorf6DQBySeV-JZHeNrwP4VXvji-RquxBUdkEouEdGROYM6_7nHQrDOXTsnE9kZ7MLKdYO1r7Tc3f0FuYmlq1TksFLUPLoQIZOQ=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "BBQ Beef (Bulgogi) Udon",
+                                "price": "$14.99",
+                                "image": "https://lh3.googleusercontent.com/UVHuDZVwjNawg8FNBxcJKvqTJaDzzvpc3x88WjDjANo2ahuglW6B_QCMSLNbJeCI1TgsH9yhQrdXPhlhRSShVfUbk_TjYkTDoCHH5mU=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Tempura Shrimp Udon",
+                                "price": "$15.99",
+                                "image": "https://lh3.googleusercontent.com/-VQQYeEni6GIq_BiZRx5BJLmfOXmPpruze8tI0oa1de3NViH2iVo71GxxKTgIRkxv0f3Bgk02yXnGUM_4wAqo_7I7XxdjBjsjAMLa3E8=c-w256",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Create Your Own Poke": [
+                            { 
+                                "name": "Build Your Own Poke",
+                                "price": "$9.95",
+                                "image": "https://lh3.googleusercontent.com/71OCWTSak10u0ucg3nXFZDCp6QxXR2ghEKpt3S95moBUuKSlzv7yNyik4qaHIRea25xaXhe1Xh1eFJcO7Mm-iH9wRPZMFYf-rEP3bLw=c-w256",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Side Menu": [
+                            { 
+                                "name": "Miso Soup",
+                                "price": "$1.99",
+                                "image": "https://lh3.googleusercontent.com/lcrKL6OgXHHZv0ddEC4Kncg_jrhkYxzTn_FUfOHDOT1AQFKyqw13UfQ4bBItGD1FrO3VAN3nGyhVnBIpuxoewFTlhZDJFPndBKWjhTuKGg=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Kimchi 8oz",
+                                "price": "$4.99",
+                                "image": "https://lh3.googleusercontent.com/5focstZuz-cEYAgKnhfw8-mInoOhEvA_hlWRru_Ztz5PqTXIWGfz0A2ltyOkpv1nmUIM-w1SqggNIkNyoImejfLlRSsqJ87KwOekgfJh=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Edamame",
+                                "price": "$4.99",
+                                "image": "https://lh3.googleusercontent.com/kR7qPCGb2ZtFhBEE9COY5-U8-bOUNqvQe4H_xn9fRyjVrVHEiZr6C9BFkEjsgU_HNzwdom4iDL_olh-zg5oVgEWz9CnhOW-rRk1qhxjcZg=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Cup Noodle",
+                                "price": "$2.99",
+                                "image": "https://lh3.googleusercontent.com/QBHVQZc-gDf8hkWkAeHVTtoAoiUfdopYuzSscJiwlAFsRoaqpQx-0qp22uEUQRKykE05RKtfWNZIgDb7xJlXg9DjUTchl4tok2Tr1s4=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "House Salad",
+                                "price": "$4.99",
+                                "image": "https://lh3.googleusercontent.com/8GbLVrLLSHLdNrl2GCrxgNKd4jKuwUo7EXOF64RbLRjp8K1EZCGnppbKTHXVwsbF6vmGCWEdJ3X1y45unYsQN50ZwvH4q4U6ZhnF3Tfw=c-w256",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Seaweed Salad",
+                                "price": "$4.99",
+                                "image": "https://lh3.googleusercontent.com/O4abv5qdIC51JpevnGZz62j2cBnowCU8hWTs7qz4D2EbbKGMjdY5dkC6vjGojSIIhYetT6Yj4fe2ZEqNCoGZLfNtRDtyE5lmQ2K1nIs=c-w256",
+                                "pcs": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

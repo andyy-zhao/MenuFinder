@@ -1,0 +1,35 @@
+nav.navbar {
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    transition:  0.32 ease-in-out;
+}
+
+nav.navbar .navbar-nav .nav-link.navbar-link {
+    font-weight: 400;
+    color: #fff !important;
+    letter-spacing: 0.8px;
+    padding: 0 25px;
+    font-size: 18px;
+    opacity: 0.75;
+}
+
+.sidebar-btn {
+    background-color: transparent !important;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    margin-left: 25px;
+}
+.app-name {
+    text-align: center;
+    color: white;
+    padding-left: 46%;
+    padding-top: 15px;
+    font-family: Lalisa;
+    font-size: 25px;
+}

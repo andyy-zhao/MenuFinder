@@ -1,0 +1,85 @@
+/* CAROUSEL ELEMENTS */
+.img-slider {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.img-slider-1 {
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+    align-items: center;
+    display: flex;
+}
+
+.img-item {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    height: 375px;
+}
+
+
+/* SIDEBAR ELEMENTS */
+.sidebar-btn {
+    background-color: transparent !important;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    margin-left: 25px;
+    transform: translate(5px, 28px)
+}
+
+.my-sidenav {
+    background-color: #363636 !important;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidenav-btn {
+    background-color: transparent !important;
+}
+
+.sliding-pane {
+    width: 25%;
+    background-color: grey;
+    transform: translate(80%, 0px);
+    height: 100vh;
+}
+
+/* MODAL */
+.main-modal {
+    padding-top: 20vh;
+    padding-left: 4vh;
+}
+
+.modal-body {
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+/* CARD */
+
+.card-main {
+    max-height: 180px;
+}
+
+.card-img {
+    display: flex;
+    width: 28%;
+    float: left;
+    margin: 0 auto;
+    position: relative;
+    height: 120px;
+    padding-right: 10px;
+}
+
+.card-title1 {
+    margin-bottom: -10px;
+}
+
+.card-nav {
+    color: black !important;
+}

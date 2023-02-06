@@ -1,0 +1,44 @@
+.sign-in-form {
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+}
+
+.sign-in-form-welcome {
+    color: white;
+    font-size: 50px;
+}
+.sign-in-guest {
+    color: #fd5959;
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+.login-btn {
+    padding: 5px;
+    flex-grow: 1;
+    width: calc(30% - 10px);
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.lgn-color1 {
+    background-color: #fd5959;
+    border: none;
+    color: white !important;
+}
+button:hover {
+    background-color: #fd5959;
+}
+
+#formBasicPassword {
+    margin-top: 8px;
+}
+
+.link-to-home {
+    padding-left: 125px;
+    transform: translate(-5px, -22px)
+}
