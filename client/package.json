@@ -18,10 +18,13 @@
     "react-bootstrap-icons": "^1.10.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
+    "react-medium-image-zoom": "^5.1.2",
     "react-multi-carousel": "^2.8.2",
     "react-pro-sidebar": "^1.0.0",
     "react-router-dom": "^6.7.0",
     "react-scripts": "5.0.1",
+    "react-select": "^5.7.0",
+    "react-zoom": "^0.3.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

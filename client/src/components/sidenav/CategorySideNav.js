@@ -10,7 +10,7 @@ export const CategorySideNav = ({ handleCategory }) => {
     const navigate = useNavigate();
     const [modal, setModal] = useState(false);
     const [modalType, setModalType] = useState("");
-    
+    const [open, setOpen] = useState(true)
     const handleModalType = (type) => {
         setModal(true);
         setModalType(type);
@@ -20,9 +20,13 @@ export const CategorySideNav = ({ handleCategory }) => {
         setModal(false);
     }
 
+    const handleToggle = () => {
+        setOpen(!open);
+    }
+
     return (
         <>
-            <SideNav className="my-sidenav" key="categories">
+            <SideNav className="my-sidenav" key="categories" expanded={open} onToggle={handleToggle}>
                     <SideNav.Toggle className="sidenav-btn" />
                     <SideNav.Nav defaultSelected="category" id="second">
                         <NavItem eventKey="breakfast" key="break">
@@ -65,6 +69,9 @@ export const CategorySideNav = ({ handleCategory }) => {
                             <NavItem onSelect={() => handleModalType("Sushi")}>
                                 <NavText>Sushi</NavText>
                             </NavItem>
+                            <NavItem onSelect={() => handleModalType("Rice + Meat")}>
+                                <NavText>Rice + Meat</NavText>
+                            </NavItem>
                             <NavItem onSelect={() => handleModalType("Desserts")}>
                                 <NavText>Desserts</NavText>
                             </NavItem>
@@ -100,6 +107,10 @@ export const CategorySideNav = ({ handleCategory }) => {
                             <NavItem onSelect={() => handleModalType("On The Go")}>
                                 <NavText>On The Go</NavText>
                             </NavItem>
+                        </NavItem>
+                        <NavItem eventKey="chinese" onSelect={() => handleModalType("Chinese")}>
+                            <NavIcon ><i className='fa-solid fa-bowl-rice' style={{fontSize: "1.5em"}}></i></NavIcon>
+                            <NavText>Chinese</NavText>
                         </NavItem>
                         <NavItem eventKey="drinks" key="drinc">
                             <NavIcon key="drincIcon"><i className='fa-solid fa-champagne-glasses' style={{fontSize: "1.5em"}}></i></NavIcon>

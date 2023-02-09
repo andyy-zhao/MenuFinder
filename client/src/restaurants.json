@@ -697,7 +697,7 @@
                 "closeHour": "9:00PM",
                 "rating": "4.9",
                 "category": "Burgers",
-                "image": "https://lh3.googleusercontent.com/p/AF1QipM3bAvvgCgphwV0y570wYEn_u3uOifE08Qa7_2G=s1360-w1360-h1020",
+                "image": "https://lh3.googleusercontent.com/p/AF1QipM3bAvvgCgphwV0y570wYEn_u3uOifE08Qa7_2G=s680-w680-h510",
                 "menu": [
                     {
                         "Burgers": [
@@ -1123,6 +1123,666 @@
                                 "name": "Seaweed Salad",
                                 "price": "$4.99",
                                 "image": "https://lh3.googleusercontent.com/O4abv5qdIC51JpevnGZz62j2cBnowCU8hWTs7qz4D2EbbKGMjdY5dkC6vjGojSIIhYetT6Yj4fe2ZEqNCoGZLfNtRDtyE5lmQ2K1nIs=c-w256",
+                                "pcs": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Sweet Dreams Teashop",
+                "location": "170 University Ave W #14, Waterloo, ON N2L 3E9",
+                "openHour": "11:00AM",
+                "closeHour": "10:00PM",
+                "rating": "4.5",
+                "category": "Bubble Tea",
+                "image": "http://dreamsofcanada.com/wp-content/uploads/2017/08/sweet-dreams-14.jpg",
+                "menu": [
+                    {
+                        "Picked For You": [
+                            { 
+                                "name": "Icy Swirl",
+                                "price": "$7.20",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Icicle Dream",
+                                "price": "$7.20",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Premium Paninis",
+                                "price": "$9.95",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Grilled Cheese",
+                                "price": "$6.95",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Sweet Creations",
+                                "price": "$7.20",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Drinks": [
+                            { 
+                                "name": "Milk Tea",
+                                "price": "$5.50",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Non Milk Tea",
+                                "price": "$5.50",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Icy Swirl",
+                                "price": "$7.20",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Icicle Dream",
+                                "price": "$7.20",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Real Fruit Shake (Dairy!)",
+                                "price": "$7.20",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Real Fruit Slush (Non Dairy!)",
+                                "price": "$7.20",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Sweet Creations",
+                                "price": "$7.20",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Premium Milk Teas",
+                                "price": "$5.20",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Food": [
+                            { 
+                                "name": "Premium Paninis",
+                                "price": "$9.95",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Grilled Cheese",
+                                "price": "$6.95",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Pesto Grilled Cheese",
+                                "price": "$7.95",
+                                "image": "https://poutineincolours.com/img/placeholders/grey_fork_and_knife.png",
+                                "pcs": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "The Alley",
+                "location": "170 University Ave W, Waterloo, ON N2L 3E9",
+                "openHour": "11:00AM",
+                "closeHour": "11:00PM",
+                "rating": "4.0",
+                "category": "Bubble Tea",
+                "image": "https://www.the-alley.ca/images/page/info-img.png",
+                "menu": [
+                    {
+                        "The Alley's Picks": [
+                            { 
+                                "name": "Deerioca Fever",
+                                "price": "$7.00",
+                                "image": "https://d1ralsognjng37.cloudfront.net/402870d5-a11f-4296-9069-d1d8d92832fa.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Royal No. 9 Milk Tea",
+                                "price": "$6.25",
+                                "image": "https://d1ralsognjng37.cloudfront.net/765bfe71-134f-4b75-846f-946a95efb4c2.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "The Alley Trio Milk Tea",
+                                "price": "$7.00",
+                                "image": "https://d1ralsognjng37.cloudfront.net/19138360-40a1-45dc-9da8-f894e8bda662.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Apple Of My Eye",
+                                "price": "$7.00",
+                                "image": "https://d1ralsognjng37.cloudfront.net/b500933f-18ae-49b4-a51d-96e05b174644.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Snow Velvet Peach Hojicha",
+                                "price": "$6.75",
+                                "image": "https://d1ralsognjng37.cloudfront.net/b499a711-6ae1-4631-b9fb-968f8b457ca4.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Peach Oolong",
+                                "price": "$6.75",
+                                "image": "https://d1ralsognjng37.cloudfront.net/7a537953-c655-47ca-a7e3-3aa8ed354d47.jpeg",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Crunchy Milk Tea Series": [
+                            { 
+                                "name": "Crunchy Brown Sugar Milk Tea",
+                                "price": "$7.25",
+                                "image": "https://d1ralsognjng37.cloudfront.net/0bf602f6-4d41-47fa-8b9c-ded25375fb2c.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Crunchy Tiramisu Milk Tea",
+                                "price": "$7.25",
+                                "image": "https://d1ralsognjng37.cloudfront.net/16cd6051-1a59-44da-9a6c-00bc8b70f574.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Crunchy Cocoa Milk Tea",
+                                "price": "$7.25",
+                                "image": "https://d1ralsognjng37.cloudfront.net/4d41f0b8-9691-41ef-b986-5777580b4a53.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Crunchy Strawberry Milk Tea",
+                                "price": "$7.25",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/a996ef1840dbcf4ae5ed1e6da07a09de/b4facf495c22df52f3ca635379ebe613.jpeg",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Brown Sugar Deerioca Series": [
+                            { 
+                                "name": "Deerioca Fever",
+                                "price": "$7.00",
+                                "image": "https://d1ralsognjng37.cloudfront.net/402870d5-a11f-4296-9069-d1d8d92832fa.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Deerioca Matcha",
+                                "price": "$7.00",
+                                "image": "https://d1ralsognjng37.cloudfront.net/60587c78-4681-4c7f-946a-583b046c09af.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Deerioca Puff",
+                                "price": "$7.00",
+                                "image": "https://d1ralsognjng37.cloudfront.net/425c239f-6d3c-4c69-b326-9c3aa863fef7.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Deerioca Ube Taro",
+                                "price": "$7.25",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/af92bb90aafc14c801190f0f91ac7161/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Deerioca Ube Puff",
+                                "price": "$7.25",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/af92bb90aafc14c801190f0f91ac7161/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Milk Tea Series": [
+                            { 
+                                "name": "The Alley Trio Milk Tea",
+                                "price": "$7.00",
+                                "image": "https://d1ralsognjng37.cloudfront.net/19138360-40a1-45dc-9da8-f894e8bda662.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Royal No. 9 Milk Tea",
+                                "price": "$6.25",
+                                "image": "https://d1ralsognjng37.cloudfront.net/765bfe71-134f-4b75-846f-946a95efb4c2.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Classic Milk Tea",
+                                "price": "$6.25",
+                                "image": "https://d1ralsognjng37.cloudfront.net/37fc3ce0-90fd-4a07-bdbe-b11545173497.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Iron Goddess Milk Tea",
+                                "price": "$6.25",
+                                "image": "https://d1ralsognjng37.cloudfront.net/d5c7f02d-9fb2-4d1f-9f91-b4efaa584eac.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Jasmine Green Milk Tea",
+                                "price": "$6.25",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/2edd37e348d877c28a85d8cd48667a1f/b4facf495c22df52f3ca635379ebe613.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Brown Sugar Ginger Roasted Milk Tea",
+                                "price": "$6.50",
+                                "image": "https://image.fantuan.ca/image/goods/1509769957481717760_cover@85x85@fantuan.api.jpg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "La France Oolong Milk Tea",
+                                "price": "$6.25",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/d37b2db63bb12dd1b5044743dac5b185/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Muscat Black Milk Tea",
+                                "price": "$6.25",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/d37b2db63bb12dd1b5044743dac5b185/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Tea Latte Series": [
+                            { 
+                                "name": "Assam Tea Latte",
+                                "price": "$6.25",
+                                "image": "https://d1ralsognjng37.cloudfront.net/7eec9dd0-fca7-4053-bd16-64ca55dfac02.jpeg",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Snow Velvet Series": [
+                            { 
+                                "name": "Snow Velvet Peach Hojicha",
+                                "price": "$6.75",
+                                "image": "https://d1ralsognjng37.cloudfront.net/b499a711-6ae1-4631-b9fb-968f8b457ca4.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Snow Velvet Peach Matcha",
+                                "price": "$6.75",
+                                "image": "https://d1ralsognjng37.cloudfront.net/b1f81fcc-f7cb-4852-8e94-4dcc6bdb6038.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Snow Velvet La France Oolong Tea",
+                                "price": "$6.75",
+                                "image": "https://d1ralsognjng37.cloudfront.net/73147c3a-4892-47c3-931a-e349716cec84.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Snow Velvet Brown Sugar Latte",
+                                "price": "$6.75",
+                                "image": "https://d1ralsognjng37.cloudfront.net/65bc30d4-3667-465a-9c75-799fade0a6ac.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Snow Velvet Peach Oolong Tea",
+                                "price": "$6.75",
+                                "image": "https://d1ralsognjng37.cloudfront.net/b51ef910-6f3d-4a9c-8d52-61eaa1479987.jpeg",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "The Alley Specialty": [
+                            { 
+                                "name": "Snow Strawberry Lulu",
+                                "price": "$6.75",
+                                "image": "https://d1ralsognjng37.cloudfront.net/078c9d71-b067-4de0-85a6-1c2dc52becc5.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Strawberry Green Tea",
+                                "price": "$7.00",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/7cf499743c5aedaf79f76aaa62649171/b4facf495c22df52f3ca635379ebe613.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Apple Of My Eye",
+                                "price": "$7.00",
+                                "image": "https://d1ralsognjng37.cloudfront.net/b500933f-18ae-49b4-a51d-96e05b174644.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Passionfruit Green tea",
+                                "price": "$7.00",
+                                "image": "https://d1ralsognjng37.cloudfront.net/526cd8a3-3f69-4a03-85d7-d009d5d4a0ee.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Orange Lulu",
+                                "price": "$6.75",
+                                "image": "https://d1ralsognjng37.cloudfront.net/38dc76f2-0841-4bbc-a844-0526d7aacd71.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Lime Honey With Aloe",
+                                "price": "$7.00",
+                                "image": "https://d1ralsognjng37.cloudfront.net/2459d387-a22c-4cd6-a92e-e6b7f9c42f67.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Kiwi Slush",
+                                "price": "$7.00",
+                                "image": "https://d1ralsognjng37.cloudfront.net/3ff9375a-ee53-442b-bce9-400504d9b91c.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Lemon Winter Melon Punch",
+                                "price": "$6.50",
+                                "image": "https://d1ralsognjng37.cloudfront.net/ec79eee9-0195-49ad-98c5-7813d77b958b.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Winter Melon Punch",
+                                "price": "$6.25",
+                                "image": "https://d1ralsognjng37.cloudfront.net/052198b6-a35a-4d04-ade6-d30f47b0d386.jpeg",
+                                "pcs": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Baba Chicken Grill",
+                "location": "170 University Ave W, Waterloo, ON N2L 3E9",
+                "openHour": "11:00AM",
+                "closeHour": "9:00PM",
+                "rating": "3.4",
+                "category": "Rice + Meat",
+                "image": "https://lh5.googleusercontent.com/p/AF1QipN9CEjR4VwOQyd25FLL6I-PtyqGHeXw6vmw8Hmq=w408-h306-k-no",
+                "menu": [
+                    {
+                        "Combos": [
+                            { 
+                                "name": "Combo A: One Meat One Vegetable",
+                                "price": "$10.19",
+                                "image": "https://d1ralsognjng37.cloudfront.net/b0c07a5a-ad3c-4a9c-b693-b612fc3bbc48.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Combo B: One Meat Two Vegetables",
+                                "price": "$10.99",
+                                "image": "https://d1ralsognjng37.cloudfront.net/5eaf91f1-0210-4e80-9db4-97a3164adff2.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Combo C: Two Meat One Vegetable",
+                                "price": "$13.49",
+                                "image": "https://d1ralsognjng37.cloudfront.net/ac0196c1-eb04-4674-9df3-d86d3c1e934e.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Veggie Combo (Rice or Noodles with 2 Vegetables)",
+                                "price": "$9.59",
+                                "image": "https://d1ralsognjng37.cloudfront.net/98da6113-94aa-4bd1-a8c0-6ff4c4261964.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Value Combo",
+                                "price": "$9.79",
+                                "image": "https://d3ltlawenycj4s.cloudfront.net/public/img/biz/menu/602b473d3f6207219dd9a7bb/upload_b2e53817e7ec686057cd7e621bfa396c.jpeg",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Side Orders": [
+                            { 
+                                "name": "Meat Entree (1lb)",
+                                "price": "$15.99",
+                                "image": "https://d1ralsognjng37.cloudfront.net/74fb48dc-0a13-4c66-955f-b17d5bf428ba.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Veggie Entree",
+                                "price": "$8.19",
+                                "image": "https://d3ltlawenycj4s.cloudfront.net/public/img/biz/menu/602b473d3f6207219dd9a7bb/upload_b2eec0fb271fa501ad205c4b9693fea5.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Rice or Noodle",
+                                "price": "$8.19",
+                                "image": "https://d1ralsognjng37.cloudfront.net/590c6ae5-d88a-46c4-98bf-73d65ad97246.jpeg",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Beverages": [
+                            { 
+                                "name": "Can Pop",
+                                "price": "$1.99",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/72.jpg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Bottle Water",
+                                "price": "$1.69",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/35.jpg",
+                                "pcs": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Perfect Meat Bowl",
+                "location": "203 Lester St, Waterloo, ON N2L 0B5",
+                "openHour": "11:00AM",
+                "closeHour": "10:00PM",
+                "rating": "4.5",
+                "category": "Chinese",
+                "image": "https://lh5.googleusercontent.com/p/AF1QipP0vAyU2A_XG4qvJ8feXxs1t3-PL0CFq2kF-6iX=w408-h305-k-no",
+                "menu": [
+                    {
+                        "Fried Skewer Station": [
+                            { 
+                                "name": "Homemade Chicken Cutlet 手工小鸡排",
+                                "price": "$6.55",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/ea0a29a177b94e02243815f164534953/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "1pc"
+                            },
+                            { 
+                                "name": "Homemade Beef Steak 手工牛排",
+                                "price": "$7.69",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/a0599d33a281aa59aa4f146a93178d67/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "1pc"
+                            },
+                            { 
+                                "name": "Fried Chicken Skewers (Small size) 脆皮鸡肉小串",
+                                "price": "$5.50",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/7a97e2b7fe6c2a4c16e1ab637d03a7ce/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "5pcs"
+                            },
+                            { 
+                                "name": "Fried Chicken Cartilage 五香鸡软骨",
+                                "price": "$5.50",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/9ec076a68b38c601de711062b1164c8e/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "5pcs"
+                            },
+                            { 
+                                "name": "Fried Boneless Chicken Stripe 无骨鸡柳",
+                                "price": "$5.50",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/f89124d0b73ec1676e145dee100b6ba4/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "200g"
+                            },
+                            { 
+                                "name": "Fried Chicken Skin Skewers 绝味鸡皮",
+                                "price": "$5.50",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/01fe0a56d497bac1ba071ea5776575ca/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "5pcs) (200g"
+                            },
+                            { 
+                                "name": "Deep Fried Chicken Bone 老式炸鸡架",
+                                "price": "$7.69",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/fe8f5339fb680fee44ab368ee81be565/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "1pc"
+                            },
+                            { 
+                                "name": "Spare Rib Skewer 桥头排骨小串",
+                                "price": "$6.55",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/6fc93c7d700a62f91b9f28b433ad3944/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "5pcs"
+                            },
+                            { 
+                                "name": "Fried Pork in Scoop Skewers 特色锅包肉小串",
+                                "price": "$6.55",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/448d808c73038ac537436ea86c94fcf7/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "5pcs"
+                            },
+                            { 
+                                "name": "Sweet Sausage 甜味香肠",
+                                "price": "$6.55",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/c8abf8046182024aad180a55d0341c0b/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "5pcs"
+                            },
+                            { 
+                                "name": "Chicken Grizzard Mini Skewer 鸡胗小串",
+                                "price": "$5.50",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/0335e5668feb186648fc4e4f48e43389/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "5pcs"
+                            },
+                            { 
+                                "name": "Grilled Beef Skewers 电烤牛肉大串",
+                                "price": "$8.73",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/18c50c625d6ee79dd67f17fd3c5304bc/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "4pcs"
+                            },
+                            { 
+                                "name": "Grilled Lamb Skewers 电烤羊肉大串",
+                                "price": "$8.73",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/2d636cf247a2dd24fcec9632f98fae7d/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "4pcs"
+                            },
+                            { 
+                                "name": "Chili Chicken Chop",
+                                "price": "$13.10",
+                                "image": "https://image.fantuan.ca/image/object_image_1630739685.2296515_cover@85x85@fantuan.api.jpg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "New Orleans Chicken Chop",
+                                "price": "$13.10",
+                                "image": "https://image.fantuan.ca/image/object_image_1630926282.9798946_cover@85x85@fantuan.api.jpg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Salt & Pepper Chicken",
+                                "price": "$7.69",
+                                "image": "https://image.fantuan.ca/image/goods/1567795031228624896_cover@85x85@fantuan.api.jpg",
+                                "pcs": ""
+                            }
+                        ]
+                    },
+                    {
+                        "Fried Vegetable 炸蔬菜类": [
+                            { 
+                                "name": "Eggplant 劈腿茄子(份)",
+                                "price": "$7.69",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/2bdccacf87cdd2c041ba13c10fc0ffdf/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Deep Fried Mini Bun 黄金小馒头",
+                                "price": "$4.99",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/3eb4dadc73f406205911e96321fdada5/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "2pcs"
+                            },
+                            { 
+                                "name": "Potato Chips 脆皮土豆片(酸甜)",
+                                "price": "$4.36",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/5292d5d2184f5822f00c44eb63fd0180/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "2pcs"
+                            },
+                            { 
+                                "name": "Lotus Root 脆皮莲藕",
+                                "price": "$4.36",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/26f4daf0be7eba4e6c2f12b7e334c067/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "2pcs"
+                            },
+                            { 
+                                "name": "Gluten 面筋串",
+                                "price": "$6.55",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/1bc9fb094ad658b5099acc21614444c5/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "2pcs"
+                            },
+                            { 
+                                "name": "Cabbage 高丽菜串",
+                                "price": "$5.41",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/686099483ffeea2f994c3de9702891f6/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "2pcs"
+                            },
+                            { 
+                                "name": "Rice Cake Slice 年糕串",
+                                "price": "$5.41",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/71ae1558afac91e2f6f0dedd28d32464/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "2pcs"
+                            },
+                            { 
+                                "name": "Deep Fried Seasame Ball 黄金芝麻球",
+                                "price": "$5.41",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/d650e884e735fe8a70db399aad2af73c/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": "2pcs"
+                            }
+                        ]
+                    },
+                    {
+                        "Beverages": [
+                            { 
+                                "name": "Lychee Juice 宏宝莱荔枝",
+                                "price": "$2.18",
+                                "image": "https://tb-static.uber.com/prod/image-proc/processed_images/188f7fbef79ca82843aef388d98ebc84/4218ca1d09174218364162cd0b1a8cc1.jpeg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Drinks",
+                                "price": "$2.18",
+                                "image": "https://cdn.mrsdigi.com/dposfiles/f2a4a4df-6d0f-423a-a4af-971872d6d202/item/74.jpg",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Iced Tea",
+                                "price": "$4.27",
+                                "image": "https://apis3.fantuan.ca/image/object_image_1630754118.596825_cover.png",
+                                "pcs": ""
+                            },
+                            { 
+                                "name": "Herbal Tea",
+                                "price": "$4.27",
+                                "image": "https://image.fantuan.ca/image/goods/1566754454798147584_cover@85x85@fantuan.api.jpeg",
                                 "pcs": ""
                             }
                         ]

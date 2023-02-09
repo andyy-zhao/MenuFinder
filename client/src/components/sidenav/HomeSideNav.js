@@ -5,13 +5,19 @@ import "../../styles.css"
 import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { SearchModal } from '../modal/SearchModal';
+import { CompareModal } from '../modal/CompareModal';
 
 export const HomeSideNav = ({handleMain}) => {
     const navigate = useNavigate();
     const [searchActive, setSearchActive] = useState(false);
+    const [compareActive, setCompareActive] = useState(false);
 
     const handleSearch = () => {
         setSearchActive(!searchActive);
+    }
+
+    const handleCompare = () => {
+        setCompareActive(!compareActive);
     }
 
     return (
@@ -27,12 +33,9 @@ export const HomeSideNav = ({handleMain}) => {
                             <NavIcon><i className='fa fa-cubes' style={{fontSize: "1.5em"}}></i></NavIcon>
                             <NavText>Categories</NavText>
                         </NavItem>
-                        <NavItem eventKey="compare" onSelect={selected => {navigate('/' + selected)}}>
+                        <NavItem eventKey="compare" onSelect={handleCompare}>
                             <NavIcon><i className='fa-solid fa-down-left-and-up-right-to-center' style={{fontSize: "1.5em"}}></i></NavIcon>
                             <NavText>Compare</NavText>
-                            <NavItem>
-                                <NavText>Hello</NavText>
-                            </NavItem>
                         </NavItem>
                         <NavItem eventKey="feeling-lucky">
                             <NavIcon><i className='fa-solid fa-utensils' style={{fontSize: "1.5em"}}></i></NavIcon>
@@ -45,8 +48,7 @@ export const HomeSideNav = ({handleMain}) => {
                     </SideNav.Nav> 
             </SideNav>
             {searchActive && <SearchModal searchActive={searchActive} handleSearch={handleSearch}/>}
+            {compareActive && <CompareModal compareActive={compareActive} handleCompare={handleCompare} />}
         </>
     )   
 }
-
-

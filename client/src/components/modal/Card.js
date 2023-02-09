@@ -4,15 +4,12 @@ import '../../styles.css';
 import Nav from 'react-bootstrap/Nav';
 
 export const RestaurantCard = ({restaurant}) => {
-    console.log("DATA: " + restaurant[0].category)
     const url = `/restaurant/${restaurant[0].name}`;
-    console.log(url);
-
     return (
         <Nav>
             <Nav.Item className="see-menu-btn">
                 <Nav.Link href={url} className="card-nav">
-                    <Card>
+                    <Card className="category-card-main">
                         <Card.Body>
                             <img src={restaurant[0].image} className="card-img"/>
                             <Card.Title className="card-title1">{restaurant[0].name}</Card.Title> 

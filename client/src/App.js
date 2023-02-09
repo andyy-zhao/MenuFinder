@@ -12,7 +12,7 @@ import  RestaurantData from "./restaurants.json";
 function App() {
   {document.body.style.overflow = "hidden"};
   let numRestaurants = RestaurantData[0].restaurants.length - 1;
-  const featuredNum = Math.floor(Math.random() * ({numRestaurants} - 0 + 1)) + 0;
+  const featuredNum = Math.floor(Math.random() * numRestaurants);
   return (
     <ProSidebarProvider>
       <Routes>

@@ -20,7 +20,6 @@ export const CategoryModal = ({modalType, handleClose}) => {
                     if(restaurant.category === modalType) {
                         return (
                             <div key={index}>
-                                {console.log(restaurant)}
                                 <RestaurantCard restaurant={[restaurant]}/>
                             </div>
                         )

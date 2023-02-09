@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import RestaurantData from "../../restaurants.json";
 import Modal from 'react-bootstrap/Modal';
 import '../../styles.css';
+import { SearchCard } from "./SearchCard";
 
 export const SearchModal = ({searchActive, handleSearch}) => {
     const [searchInput, setSearchInput] = useState("");
@@ -10,15 +11,9 @@ export const SearchModal = ({searchActive, handleSearch}) => {
         e.preventDefault();
         setSearchInput(e.target.value);
     }
-
-    // useEffect(() => {
-    //     console.log("Search inside useEffect: ", searchInput);
-    // }, [searchInput]);
-
-
     return (
       <>
-        <Modal show={searchActive} onHide={handleSearch} className="main-modal">
+        <Modal show={searchActive} onHide={handleSearch} className="main-search-modal" size="lg">
           <Modal.Header closeButton className="search-header">
             <Modal.Title>
                 <div className="search-title">
@@ -29,7 +24,7 @@ export const SearchModal = ({searchActive, handleSearch}) => {
                 </div>
             </Modal.Title>
           </Modal.Header>
-          <Modal.Body className="modal-body">
+          <Modal.Body className="modal-search-body">
             <div className="main">
                 <div className="form-group has-search">
                     <span className="fa fa-search form-control-feedback"></span>
@@ -43,14 +38,28 @@ export const SearchModal = ({searchActive, handleSearch}) => {
                 </div>
             </div>
             <div>
-                {/* {RestaurantData[0].restaurants.filter(restaurant =>
-                    restaurant.name === searchInput).map(filteredRestaurant => (
-                        console.log(filteredRestaurant.name)
-                    ))} */}
-                {RestaurantData[0].restaurants.filter(restaurant =>
-                    restaurant.name === searchInput).map(filteredRestaurant => (
-                        console.log(filteredRestaurant.name)
-                    ))}
+                {RestaurantData[0].restaurants.map((restaurant, index) => {
+                    const itemArray = [];
+                    restaurant.menu.map((category,index)=> {
+                        Object.values(category)[0].filter(item => 
+                            // item.name === searchInput
+                            item.name.toLowerCase().includes(searchInput.toLowerCase())
+                        ).map((filteredItem, index) => {
+                            itemArray.push(filteredItem)
+                            return (
+                                <div key={index}>{itemArray[0].name}</div>
+                            )
+                        })
+                    })
+                    for (var i = 0; i < itemArray.length; i++) {
+                        let item = itemArray[i];
+                        return (
+                            <SearchCard restaurant={restaurant} item={item} />
+                        )
+                    }
+
+                })}
+
             </div>
           </Modal.Body>
         </Modal>
