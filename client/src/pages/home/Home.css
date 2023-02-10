@@ -29,13 +29,33 @@
 }
 
 .category-btn {
-    background-color: transparent !important;
+    background-color: transparent;
     border-radius: 12px;
-    border-color: #9FA68C;
+    border-width: 0.5px;
+    border-color: #9FA68C !important;
+    color: #36392D;
     margin-right: 20px;
     height: 40px;
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.category-btn:hover {
+    background-color: transparent;
+}
+
+.category-btn:active {
+    background-color: #B7BCA9;
+}
+
+/* .category-btn:focus {
+    background-color: #B7BCA9;
+    border: none;
+} */
+
+.special { 
+    background-color: #B7BCA9;
+    border: none;
 }
 
 .single-line-btn {

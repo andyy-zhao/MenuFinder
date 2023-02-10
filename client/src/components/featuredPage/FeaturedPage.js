@@ -7,8 +7,15 @@ import 'react-multi-carousel/lib/styles.css';
 import { ImgCarousel } from "../imgCarousel/ImgCarousel";
 
 export const FeaturedPage = (prop) => {
-    console.log(prop);
     const [active, setActive] = useState(Object.keys(prop.mydata.menu[0])[0]);
+
+    const btnElList = document.querySelectorAll('.category-btn');
+    btnElList.forEach(btnEl => {
+        btnEl.addEventListener('click', () => {
+            document.querySelector('.special')?.classList.remove('special');
+            btnEl.classList.add('special');
+        });
+    });
     return (
         <div className='hi'>
             <MainSideNav />

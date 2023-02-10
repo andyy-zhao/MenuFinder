@@ -1,7 +1,8 @@
 import React from 'react';
 import Carousel from 'react-multi-carousel';
 import '../../styles.css';
-import { useState } from 'react';
+import Card from 'react-bootstrap/Card'
+import '../../styles.css';
 
 export const ImgCarousel = ( prop ) => {
   const responsive = {
@@ -12,7 +13,7 @@ export const ImgCarousel = ( prop ) => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 4
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -32,19 +33,46 @@ export const ImgCarousel = ( prop ) => {
   }
 
   return (
-    <Carousel responsive={responsive} infinite={true} className={classname}>
-      {
-        prop.item.map((picture,index) => {
-          return(
-            <div key={picture.name}>
-              <img src={picture.image} className="img-item" key={index}/>
-              {picture.name}<br></br>
-              {picture.price}
-              {picture.pcs != "" && ` (` + picture.pcs + `)`}
-            </div>
-          ) 
-        })
-      }
-    </Carousel>
+    <div style={{
+      paddingBottom: '20px',
+      position: 'relative'
+      }}>
+      <Carousel 
+        responsive={responsive} 
+        infinite={true} 
+        arrows={true}
+        className={classname}
+        slidesToSlide={2}
+        renderDotsOutside
+        showDots
+        keyBoardControl
+        swipeable
+        pauseOnHover>
+        {
+          prop.item.map((picture,index) => {
+            return(
+              <>
+              {/* <div key={picture.name}>
+                <img src={picture.image} className="img-item" key={index}/>
+                {picture.name}<br></br>
+                {picture.price}
+                {picture.pcs != "" && ` (` + picture.pcs + `)`}
+              </div> */}
+              <Card className="slider-card">
+                <Card.Img variant="top" src={picture.image} style={{height:'19rem', width:'18rem'}} />
+                <Card.Body>
+                  <Card.Title style={{color:"#36392D", fontFamily:"Archivo"}}>{picture.name}</Card.Title>
+                  <Card.Text style={{color:"#36392D"}}>
+                    {picture.price}
+                    {picture.pcs != "" && ' (' + picture.pcs + ')'}
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+              </>
+            ) 
+          })
+        }
+      </Carousel>
+    </div>
   )
 }

@@ -6,11 +6,13 @@ import { useNavigate } from 'react-router-dom';
 import { useState } from 'react';
 import { SearchModal } from '../modal/SearchModal';
 import { CompareModal } from '../modal/CompareModal';
+import { LuckyModal } from '../modal/LuckyModal';
 
 export const HomeSideNav = ({handleMain}) => {
     const navigate = useNavigate();
     const [searchActive, setSearchActive] = useState(false);
     const [compareActive, setCompareActive] = useState(false);
+    const [luckyActive, setLuckyActive] = useState(false);
 
     const handleSearch = () => {
         setSearchActive(!searchActive);
@@ -18,6 +20,10 @@ export const HomeSideNav = ({handleMain}) => {
 
     const handleCompare = () => {
         setCompareActive(!compareActive);
+    }
+
+    const handleLucky = () => {
+        setLuckyActive(!luckyActive);
     }
 
     return (
@@ -37,7 +43,7 @@ export const HomeSideNav = ({handleMain}) => {
                             <NavIcon><i className='fa-solid fa-down-left-and-up-right-to-center' style={{fontSize: "1.5em"}}></i></NavIcon>
                             <NavText>Compare</NavText>
                         </NavItem>
-                        <NavItem eventKey="feeling-lucky">
+                        <NavItem eventKey="feeling-lucky" onSelect={handleLucky}>
                             <NavIcon><i className='fa-solid fa-utensils' style={{fontSize: "1.5em"}}></i></NavIcon>
                             <NavText>I'm Feeling Lucky</NavText>
                         </NavItem>
@@ -49,6 +55,7 @@ export const HomeSideNav = ({handleMain}) => {
             </SideNav>
             {searchActive && <SearchModal searchActive={searchActive} handleSearch={handleSearch}/>}
             {compareActive && <CompareModal compareActive={compareActive} handleCompare={handleCompare} />}
+            {luckyActive && <LuckyModal luckyActive={luckyActive} handleLucky={handleLucky} />}
         </>
     )   
 }

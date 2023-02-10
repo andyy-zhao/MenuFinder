@@ -6,17 +6,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Select from 'react-select';
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
+import { useNavigate } from "react-router-dom";
 
 function getItemsList(restaurant) {
     let menuItems = [];
-    // restaurant.menu.map(category => (
-    //     Object.values(category)[0].map(
-    //         item => (
-    //             menuItems.push(item)
-    //         )
-    //     )
-    //     // console.log(Object.values(category)[0])
-    // ))
     for (let i = 0; i < restaurant.menu.length; i++) {
         console.log(Object.values(restaurant.menu[i])[0].length)
         let num = Object.values(restaurant.menu[i])[0].length
@@ -79,15 +72,7 @@ export const CompareModal = ({compareActive, handleCompare}) => {
     for (let i = 0; i < RestaurantData[0].restaurants.length; i++) {
         restaurants.push(RestaurantData[0].restaurants[i]);
     }
-    // const menuItems = [];
-
-    // for (let i = 0; i < RestaurantData[0].restaurants.length; i++) {
-    //     RestaurantData[0].restaurants[i].menu.map(category => (
-    //         Object.values(category)[0].map(item => (
-    //             menuItems.push(item)
-    //         ))
-    //     ))
-    // }
+    ;
     const [firstRestaurant, setFirstRestaurant] = useState(restaurants[0]);
     const [secondRestaurant, setSecondRestaurant] = useState(restaurants[0]);
     const menulist = getItemsList(restaurants[0]);
@@ -115,19 +100,34 @@ export const CompareModal = ({compareActive, handleCompare}) => {
         setSecondItem(selectedOption);
     }
 
+    let navigate = useNavigate();
+    const routeChange1 = () => {
+        let path = `/restaurant/${firstRestaurant.name}`;
+        navigate(path);
+        handleCompare();
+    }
+
+    const routeChange2 = () => {
+        let path = `/restaurant/${secondRestaurant.name}`;
+        navigate(path);
+        handleCompare();
+    }
+
     return (
-      <>
         <Modal 
             show={compareActive} 
             onHide={handleCompare} 
             size="lg"
             className="compare-modal-main">
-          <Modal.Header closeButton>
+        <Modal.Header closeButton>
             <Modal.Title>
                     Compare    
+                    <div className="compare-subtitle">
+                        Compare Two Dishes From Any Restaurants
+                    </div>
             </Modal.Title>
-          </Modal.Header>
-          <Modal.Body className="modal-search-body">
+        </Modal.Header>
+        <Modal.Body className="modal-search-body">
             <Container className="main-compare-container">
                 <Row>
                     <Col>
@@ -169,7 +169,7 @@ export const CompareModal = ({compareActive, handleCompare}) => {
                         </Zoom> 
                         <h6 className="compare-img-desc">
                             {firstItem.price} {firstItem.pcs != "" && ` (` + firstItem.pcs + `)`}
-                            <button className="compare-btn">Visit Page</button>
+                            <button className="compare-btn" onClick={routeChange1}>Visit Page</button>
                         </h6>
                     </Col>
                     <Col>
@@ -207,7 +207,7 @@ export const CompareModal = ({compareActive, handleCompare}) => {
                         </Zoom>
                         <h6 className="compare-img-desc">
                             {secondItem.price} {secondItem.pcs != "" && ` (` + secondItem.pcs + `)`}
-                            <button className="compare-btn">Visit Page</button>
+                            <button className="compare-btn" onClick={routeChange2}>Visit Page</button>
                         </h6>
                     </Col>
                     <hr style={{marginTop: "2rem"}}></hr>
@@ -254,7 +254,7 @@ export const CompareModal = ({compareActive, handleCompare}) => {
                             Cost Range
                         </h5>
                         <div className="hour1">
-                           ${getMinCost(firstRestaurant)} - ${getMaxCost(firstRestaurant)}
+                        ${getMinCost(firstRestaurant)} - ${getMaxCost(firstRestaurant)}
                         </div>
                         
                     </Col>
@@ -267,8 +267,7 @@ export const CompareModal = ({compareActive, handleCompare}) => {
                     <br></br>               
                 </Row>
             </Container>
-          </Modal.Body>
+        </Modal.Body>
         </Modal>
-      </>
     );
 }

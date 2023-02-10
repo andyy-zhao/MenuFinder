@@ -1,7 +1,9 @@
 /* CAROUSEL ELEMENTS */
 .img-slider {
-    padding-top: 25px;
+    margin-top: 4rem;
+    margin-left: 3.5rem;
     text-align: center;
+    align-content: center;
 }
 
 .img-slider-1 {
@@ -20,6 +22,11 @@
     height: 375px;
 }
 
+.slider-card {
+    width: 18rem;
+    background-color: transparent !important;
+    border: none;
+}
 
 /* SIDEBAR ELEMENTS */
 .sidebar-btn {
@@ -71,10 +78,35 @@
     max-height: 500px;
 }
 
+.lucky-img {
+    max-height: 23rem;
+    height: 23rem;
+}
+
+.lucky-name {
+    font-family:"Archivo";
+    font-weight: bolder;
+}
+
 /*   Modal */
 .compare-modal-main {
     height: 80vh !important;
+    overflow: hidden;
+    padding-top: 10vh;
+    padding-left: 4vh;
+}
 
+.shuffle-btn {
+    background-color: transparent !important;
+    border-radius: 12px;
+    float: right;
+    margin-top: -.8rem;
+    border-width: 1px;
+    border-color:#36392D;
+}
+
+.lucky-modal-main {
+    height: 200vh !important;
     padding-top: 10vh;
     padding-left: 4vh;
 }
@@ -160,9 +192,18 @@
 
 /* CARD */
 
+.lucky-card-main {
+    max-height: 40rem;
+}
+
+.lucky-nav {
+    margin-left: -1rem;
+    font-size: large;
+}
+
 .search-card {
     /* width: 28.1rem; */
-    width: 95.3% !important;
+    width: 97.5% !important;
     margin-right: 39.5rem;
     margin-left: -1rem;
 }
@@ -239,8 +280,27 @@
     font-size: large;
     font-weight: 300;
     color: #36392D;
-    text-align: center !important;
     padding-left: 1.5rem;
+}
+
+.compare-subtitle {
+    font-size: large;
+    font-weight: 300;
+    color: #36392D;
+}
+
+.lucky-title {
+    font-weight: bolder;
+    font-size: larger;
+    color: #36392D;
+    text-align: left;
+}
+
+.lucky-subtitle {
+    text-align: left;
+    font-size: large;
+    font-weight: 300;
+    color: #36392D;
 }
 
 /* Styles for wrapping the search box */

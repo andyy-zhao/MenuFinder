@@ -11,6 +11,15 @@ import { useParams } from "react-router-dom";
 // mydata: {name: 'chungchun', location: "", rating: "", menu: []}
 export const Restaurant = (prop) => {
     const [active, setActive] = useState(Object.keys(prop.mydata.menu[0])[0]);
+
+    const btnElList = document.querySelectorAll('.category-btn');
+    btnElList.forEach(btnEl => {
+        btnEl.addEventListener('click', () => {
+            document.querySelector('.special')?.classList.remove('special');
+            btnEl.classList.add('special');
+        });
+    });
+
     return (
         <div className='hi'>
             <div className='menu-title-1'>
@@ -30,7 +39,7 @@ export const Restaurant = (prop) => {
                         str = str.replace(/_/g, " ");
                         return (
                             <div key={index} className="single-line-btn">
-                                <button className="category-btn" key={Object.values(category)[0]} onClick={() => setActive(Object.keys(category)[0])}>{str}</button>
+                                <button className="category-btn" onClick={() => setActive(Object.keys(category)[0])}>{str}</button>
                             </div>
                         )
                     })}
