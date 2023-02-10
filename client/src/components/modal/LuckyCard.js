@@ -1,29 +1,19 @@
-import React, {useState }from "react"
+import React, { useState, useEffect }from "react"
 import Card from 'react-bootstrap/Card'
-import RestaurantData from "../../restaurants.json";
 import shuffleImg from "../../assets/icons/shuffle.png";
 import '../../styles.css';
 import Nav from 'react-bootstrap/Nav';
 
-export const LuckyCard = () => {
-    let numRestaurants = RestaurantData[0].restaurants.length - 1;
-    let featuredNum = Math.floor(Math.random() * numRestaurants);
-    const [restaurant, setRestaurant] = useState(RestaurantData[0].restaurants[featuredNum])
+export const LuckyCard = ({shuffleCard, restaurant}) => {
     const [url, setUrl] = useState(`/restaurant/${restaurant.name}`)
-
-    const shuffleCard = () => {
-        let prevNum = featuredNum;
-        featuredNum = Math.floor(Math.random() * numRestaurants);
-        while (prevNum === featuredNum) {
-            featuredNum = Math.floor(Math.random() * numRestaurants);
-        }
-        setRestaurant(RestaurantData[0].restaurants[featuredNum]);
+    useEffect(() => {
         setUrl(`/restaurant/${restaurant.name}`)
-    }
+    })
 
     return (
         <Card className="lucky-card-main">
             <Card.Img variant="top" src={restaurant.image} className="lucky-img"/>
+            {console.log(url)}
             <Card.Body>
             <Card.Text>
                 <div className="lucky-name">

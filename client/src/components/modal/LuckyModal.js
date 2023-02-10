@@ -2,8 +2,22 @@ import React, { useState, useEffect } from 'react';
 import Modal from 'react-bootstrap/Modal';
 import '../../styles.css';
 import { LuckyCard } from './LuckyCard';
+import RestaurantData from "../../restaurants.json";
 
 export const LuckyModal = ({luckyActive, handleLucky}) => {
+
+    let numRestaurants = RestaurantData[0].restaurants.length - 1;
+    let featuredNum = Math.floor(Math.random() * numRestaurants);
+    const [restaurant, setRestaurant] = useState(RestaurantData[0].restaurants[featuredNum])
+
+    const shuffleCard = () => {
+        let prevNum = featuredNum;
+        featuredNum = Math.floor(Math.random() * numRestaurants);
+        while (prevNum === featuredNum) {
+            featuredNum = Math.floor(Math.random() * numRestaurants);
+        }
+        setRestaurant(RestaurantData[0].restaurants[featuredNum]);
+    }
     
     return (
         <Modal show={luckyActive} onHide={handleLucky} className="lucky-modal-main" size="lg">
@@ -18,7 +32,7 @@ export const LuckyModal = ({luckyActive, handleLucky}) => {
             </Modal.Title>
           </Modal.Header>
           <Modal.Body className="modal-search-body">
-                <LuckyCard />
+                <LuckyCard shuffleCard={shuffleCard} restaurant={restaurant}/>
             </Modal.Body>
         </Modal>
     );
