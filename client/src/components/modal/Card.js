@@ -11,7 +11,7 @@ export const RestaurantCard = ({restaurant}) => {
                 <Nav.Link href={url} className="card-nav">
                     <Card className="category-card-main">
                         <Card.Body>
-                            <img src={restaurant[0].image} className="card-img"/>
+                            <img src={restaurant[0].image} className="card-img" alt="first restaurant"/>
                             <Card.Title className="card-title1">{restaurant[0].name}</Card.Title> 
                             <Card.Text>
                                 <div className="card-body">

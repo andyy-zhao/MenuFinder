@@ -1,22 +1,9 @@
-import React, { useState } from 'react';
 import './SignInForm.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 
 export const SignInForm = () => {
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
-
-
-    const handleSubmit = (e) => {
-        console.log(username, password);
-    }
-    // this will be used to navigate to the main page
-    
-    const handleLogin = () => {
-        console.log(username, password);
-    }
     
     return (
         <Form className="sign-in-form">
@@ -33,10 +20,10 @@ export const SignInForm = () => {
                 <Form.Control type="password" placeholder="Password"/>
             </Form.Group>
             <div className='btn-login-group'>
-                <Button className="login-btn lgn-color1" variant="contained" type="submit" onClick={() => handleLogin()} >
+                <Button className="login-btn lgn-color1" variant="contained" type="submit" >
                 Login
                 </Button>
-                <Button className="login-btn" variant="primary" type="submit" onClick={() => handleSubmit()}>
+                <Button className="login-btn" variant="primary" type="submit" >
                 Signup
                 </Button>
             </div>

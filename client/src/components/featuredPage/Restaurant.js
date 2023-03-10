@@ -4,7 +4,6 @@ import '../../App.css';
 import '../../pages/home/Home.css';
 import 'react-multi-carousel/lib/styles.css';
 import { ImgCarousel } from "../imgCarousel/ImgCarousel";
-import { useParams } from "react-router-dom";
 
 // prop is a restaurant object.
 // {mydata: {...}}

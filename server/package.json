@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "author": "Andy Zhao",
-  "main": "index.js",
+  "main": "index.js", 
   "scripts": {
     "start": "nodemon index.js"
   },

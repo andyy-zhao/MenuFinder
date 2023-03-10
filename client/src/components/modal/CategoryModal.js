@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import RestaurantData from "../../restaurants.json";
 import Modal from 'react-bootstrap/Modal';
 import '../../styles.css';
@@ -6,7 +5,7 @@ import { RestaurantCard } from "./Card";
 
 
 export const CategoryModal = ({modalType, handleClose}) => {
-    const [show, setShow] = useState(true);
+    const show = true;
     const restaurantArray = RestaurantData[0].restaurants;
     return (
       <>
@@ -23,6 +22,8 @@ export const CategoryModal = ({modalType, handleClose}) => {
                                 <RestaurantCard restaurant={[restaurant]}/>
                             </div>
                         )
+                    } else {
+                      return null;
                     }
                 }) 
             }

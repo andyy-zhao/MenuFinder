@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import RestaurantData from "../../restaurants.json";
 import Modal from 'react-bootstrap/Modal';
 import '../../styles.css';
@@ -165,10 +165,10 @@ export const CompareModal = ({compareActive, handleCompare}) => {
                             Food Item
                         </h5>
                         <Zoom>
-                            <img src={firstItem.image} className="compare-img"/>
+                            <img src={firstItem.image} className="compare-img" alt="first item"/>
                         </Zoom> 
                         <h6 className="compare-img-desc">
-                            {firstItem.price} {firstItem.pcs != "" && ` (` + firstItem.pcs + `)`}
+                            {firstItem.price} {firstItem.pcs !== "" && ` (` + firstItem.pcs + `)`}
                             <button className="compare-btn" onClick={routeChange1}>Visit Page</button>
                         </h6>
                     </Col>
@@ -203,10 +203,10 @@ export const CompareModal = ({compareActive, handleCompare}) => {
                             onChange={handleSecondItemChange}
                         />
                         <Zoom>
-                            <img src={secondItem.image} className="compare-img2"/>
+                            <img src={secondItem.image} className="compare-img2" alt="second item" />
                         </Zoom>
                         <h6 className="compare-img-desc">
-                            {secondItem.price} {secondItem.pcs != "" && ` (` + secondItem.pcs + `)`}
+                            {secondItem.price} {secondItem.pcs !== "" && ` (` + secondItem.pcs + `)`}
                             <button className="compare-btn" onClick={routeChange2}>Visit Page</button>
                         </h6>
                     </Col>

@@ -18,6 +18,8 @@ export const RestaurantPage = () => {
                         return (
                             <Restaurant mydata={restaurant} key={index}/>
                         )
+                    } else {
+                        return null;
                     }
                 })
             }

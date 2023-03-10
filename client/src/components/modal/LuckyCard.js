@@ -8,7 +8,7 @@ export const LuckyCard = ({shuffleCard, restaurant}) => {
     const [url, setUrl] = useState(`/restaurant/${restaurant.name}`)
     useEffect(() => {
         setUrl(`/restaurant/${restaurant.name}`)
-    })
+    }, [restaurant.name])
 
     return (
         <Card className="lucky-card-main">
@@ -27,7 +27,7 @@ export const LuckyCard = ({shuffleCard, restaurant}) => {
                 </div>
                 <div>
                     {restaurant.location} 
-                    <button onClick={shuffleCard} className="shuffle-btn"><img src={shuffleImg} style={{ width: "30px", height: "30px" }}/></button>
+                    <button onClick={shuffleCard} className="shuffle-btn"><img src={shuffleImg} alt='shuffle' style={{ width: "30px", height: "30px" }}/></button>
                 </div>
             </Card.Text>
             </Card.Body>

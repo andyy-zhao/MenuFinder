@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import RestaurantData from "../../restaurants.json";
 import Modal from 'react-bootstrap/Modal';
 import '../../styles.css';
@@ -50,6 +50,7 @@ export const SearchModal = ({searchActive, handleSearch}) => {
                                 <div key={index}>{itemArray[0].name}</div>
                             )
                         })
+                        return null;
                     })
                     for (var i = 0; i < itemArray.length; i++) {
                         let item = itemArray[i];
@@ -57,7 +58,7 @@ export const SearchModal = ({searchActive, handleSearch}) => {
                             <SearchCard restaurant={restaurant} item={item} />
                         )
                     }
-
+                    return null;
                 })}
 
             </div>

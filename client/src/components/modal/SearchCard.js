@@ -29,9 +29,9 @@ export const SearchCard = ({restaurant, item}) => {
                                         </Card.Text>
                                     </Col>
                                     <Col>
-                                        <img src={item.image} className="search-card-img"/>
-                                        <img src={img1} className="search-card-img"/>
-                                        <img src={img2} className="search-card-img"/>
+                                        <img src={item.image} className="search-card-img" alt="search card" />
+                                        <img src={img1} className="search-card-img" alt="search card"/>
+                                        <img src={img2} className="search-card-img" alt='search card'/>
                                     </Col>
                                 </Row>
                             </Container>

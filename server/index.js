@@ -14,13 +14,15 @@ import { fileURLToPath } from "url";
 import { MenuItem } from "./models/menuItemModel.js";
 import { Restaurant } from "./models/restaurantModel.js";
 
+import restaurants from './api/restaurants.route.js';
+
 /* CONFIGURATIONS middleware */
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 dotenv.config();
 const app = express();
-app.use(express.json());
+app.use(express.json()); // these are all things that express is going to use
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: "cross-origin" }));
 app.use(cors())
@@ -30,6 +32,9 @@ app.use(bodyParser.json({extended: true}));
 app.use(bodyParser.urlencoded({extended: true}));
 app.use("/assets", express.static(path.join(__dirname, 'public/assets')));
 app.set("view engine", "ejs");
+
+// app.use("/api/v1/restaurants", restaurants)
+// app.use("*", (req, res) => res.status(404).json({ error: "not found"}));
 
 const port = process.env.PORT || 4001;
 const server = http.createServer(app);
@@ -45,7 +50,7 @@ mongoose.connect(process.env.MONGODB_URL).then(() => {
 });
 
 app.get("/", (req, res) => {
-    res.send("DJASOIDJAOISJDOSI");
+    
 });
 
 /* FILE STORAGE */
@@ -103,7 +108,7 @@ app.post('/upload/restaurant',(req, res) => {
     })
 });
 
-app.get('/upload/restaurant', async (req, res) => {
+app.get('/restaurant', async (req, res) => {
     const allData = await Restaurant.find();
     const data = res.json(allData);
 })
@@ -112,3 +117,6 @@ app.get('/upload/menuItem', async (req, res) => {
     const allData = await MenuItem.find();
     const data = res.json(allData);
 })
+
+
+export default app
